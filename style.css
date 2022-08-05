@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+h1 {
+  font-size: 66pt;
+  margin: 6px;
+  padding: 2px;
+}
+
+h3 {
+  padding: 10px;
+  border: 10px;
+  width: fit-content;
+}
+
+.min {
+  text-align: center;
+  display: flex;
+  padding: 0px 12%;
+}
+
+.min-inner {
+  flex: 2;
+  margin: 10px;
+  width: 50%;
+}
+
+.inner {
+  flex: 2;
+  text-align: start;
+}
+
+.vertical-center {
+  margin-top: 8%;
+}
+
+@media only screen and (max-width: 450px) {
+  .searchbar {
+    width: 90%;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .vertical-center {
+    margin-top: 15px;
+  }
+}
+.searchbar {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  border-style: solid;
+  border-color: #006eff;
+  border-radius: 20px;
+  border-width: 2px;
+}
+
+.searchbutton {
+  background-color: #1466e9;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 20px;
+  margin: 11px 4px;
+  padding: 8px 16px;
+}
+
+.searchbar-t1 {
+  border-radius: 5px;
+  display: block;
+  margin: 7px;
+  padding: 7px;
+  width: 500px;
+}
+
+@media only screen and (max-width: 700px) {
+  .searchbar-t1 {
+    width: 190px;
+  }
+}
+.info-input {
+  margin: 15px 45px;
+}
+.info-input tr {
+  font-size: 10pt;
+}
+.info-input tr td .searchbutton {
+  float: right;
+  background-color: #1466e9;
+  color: #ffffff;
+}
+
+.other-fns-nav {
+  text-align: right;
+}
+.other-fns-nav li {
+  display: inline-block;
+  padding: 10px;
+}
+.other-fns-nav a {
+  color: #000000;
+}
+.other-fns-nav a, .other-fns-nav a:active, .other-fns-nav a:hover, .other-fns-nav a:visited {
+  text-decoration: none;
+}
+.other-fns-nav a:active, .other-fns-nav a:hover {
+  text-decoration: underline;
+}
+
+.other-fns {
+  display: flex;
+  text-align: justify;
+  width: 80%;
+  padding: 0px 5%;
+}
+.other-fns li {
+  display: flex;
+  text-align: center;
+  margin: 0 5px;
+  padding: 0px 20%;
+}
+.other-fns a {
+  color: #000000;
+}
+.other-fns a, .other-fns a:active, .other-fns a:hover, .other-fns a:visited {
+  text-decoration: none;
+}
+.other-fns a:active, .other-fns a:hover {
+  text-decoration: underline;
+}
+
+.searchbar:hover, .searchbar:focus, .searchbar-t1:hover, .searchbar-t1:focus, .searchbutton:hover {
+  box-shadow: 0 0 2px 2px #006eff;
+  outline: invert;
+}
+
+/*# sourceMappingURL=style.css.map */
